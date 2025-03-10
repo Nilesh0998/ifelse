@@ -16,7 +16,7 @@
         elseif($driving>=60 && $driving<=100){
             echo "LICENCE EXPIRED";
         }
-        elseif($driving>=100 && $driving<=0){
+        elseif($driving>=100){
             echo "Please Enter Valid Number";
         }
     }
